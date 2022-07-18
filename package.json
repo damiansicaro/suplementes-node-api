@@ -1,0 +1,30 @@
+{
+  "name": "suplemente-rest-api",
+  "version": "1.0.0",
+  "description": "Restful API for user accounts and products management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "NODE.JS",
+    "HASH",
+    "SALT"
+  ],
+  "author": "Damian Sicaro",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "credential": "^2.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.0.0",
+    "sequelize": "^5.21.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "server": {
+    "port": 3000,
+    "jwtSecret": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY1NzczOTE5NSwiaWF0IjoxNjU3NzM5MTk1fQ.0Rgu0yboTDbHZYuCe7AA5mZFQSC2kiY4FB7oSD6WnyA"
+  },
+  "db": {
+    "username": "accounts",
+    "password": "accounts",
+    "database": "accounts",
+    "host": "localhost",
+    "port": 3306
+  }
+}
