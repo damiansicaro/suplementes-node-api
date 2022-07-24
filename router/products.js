@@ -111,7 +111,7 @@ module.exports = (app, models) => {
           if (product) {
             res.status(200).send()
           } else {
-            res.status(500).send() // fallo el insert
+            res.status(500).send() // fallo el borrado
           }
         })
     }
