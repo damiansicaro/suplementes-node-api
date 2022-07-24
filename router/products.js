@@ -94,5 +94,26 @@ module.exports = (app, models) => {
           }
         })
     }
-    )
+  )
+
+  app.delete(END_POINT,
+    (req, res, next) => { checkToken(req, res, next) },
+    (req, res) => {
+
+      var id = req.body.id
+
+      models.product.destroy({
+        where: {
+          id: id
+        }
+      })
+        .then(product => {
+          if (product) {
+            res.status(200).send()
+          } else {
+            res.status(500).send() // fallo el insert
+          }
+        })
+    }
+  )
 }
